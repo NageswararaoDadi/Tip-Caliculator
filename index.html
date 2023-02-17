@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-container">
+        <h1 class="head">Tip Caliculatotr</h1> 
+        <div class="input-card">
+            <div>
+            <label class="label-element" for="billAmount">Bill Amount</label>
+            <br />
+            <input class="input-element" type="text" placeholder="Bill Amount" id="billAmount" />
+        </div>
+        <div class="input-card">
+            <label class="label-element" for="tipPercentage">Tip Percentange</label>
+            <br />
+            <input class="input-element" type="text" placeholder="Tip Percentange" id="tipPercentage" />
+        </div>
+        <div class="input-card">
+            <label class="label-element" for="tipAmount">Tip Amount</label>
+            <br />
+            <input class="input-element" type="text" placeholder="Tip Amount" id="tipAmount" />
+        </div>
+        <div class="input-card">
+            <label class="label-element" for="total">Total</label>
+            <br />
+            <input class="input-element" type="text" placeholder="Total" id="total" />
+        </div>
+        </div>
+        <p id="erroeMssage"></p>
+        <button onclick="onClickBtn()" class="button-caliculator">Caliculate</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
